@@ -335,4 +335,32 @@ section {
     padding: 6em 20em 6em 20em;
   }
 }
+
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: translate(221px, 718px);
+            transform: translate(221px, 718px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(221px, 745px);
+            transform: translate(221px, 745px);
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    -webkit-transform: translate(221px, 718px);
+            transform: translate(221px, 718px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(221px, 745px);
+            transform: translate(221px, 745px);
+  }
+}
 /*# sourceMappingURL=main.css.map */

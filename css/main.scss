@@ -79,7 +79,8 @@ section {
   text-align: center;
 }
 
-.featured{  position: relative;
+.featured {
+  position: relative;
 }
 
 .featured img {
@@ -306,5 +307,19 @@ section {
   }
   .hero .content {
     padding: 6em 20em 6em 20em;
+  }
+}
+
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@keyframes circleAnim {
+  from {
+    transform: translate(221px, 718px);
+    z-index: 5;
+  }
+  to {
+    transform: translate(221px, 745px);
   }
 }
