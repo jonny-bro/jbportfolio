@@ -229,6 +229,9 @@ section {
   header {
     font-size: 8px;
   }
+  footer {
+    font-size: 8px;
+  }
 }
 
 @media only screen and (min-width: 800px) {
