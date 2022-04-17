@@ -20,6 +20,15 @@ img {
   width: 100%;
 }
 
+.footer-container {
+  background: black;
+  // max-height: 100vh;
+
+  a {
+    color: white;
+  }
+}
+
 .nav-container {
   background: black;
 
@@ -48,7 +57,31 @@ header {
   }
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+
+  .logo {
+    color: #00f7ff;
+    font-weight: bold;
+  }
+
+  ul {
+    display: flex;
+
+    a {
+      display: block;
+      padding: 0 1em;
+    }
+  }
+}
+
 .social-header,
+.hero-design-footer {
+  display: none;
+}
+
 .hero-design {
   display: none;
 }
@@ -227,9 +260,31 @@ section {
   .portfolio-container img {
     margin-left: 3em;
   }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo {
+      color: #00f7ff;
+      font-weight: bold;
+    }
+
+    ul {
+      display: flex;
+
+      a {
+        display: block;
+        padding: 0 1em;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1050px) {
+
+
   .hero {
     height: 90vh;
   }
@@ -248,9 +303,9 @@ section {
     padding: 2em 2em 2em 4em;
   }
 
-  .social-header {
-    padding: 2em 4em 2em 0;
-  }
+  // .social-header {
+  //   padding: 2em 4em 2em 0;
+  // }
 
   section {
     padding: 4em;
@@ -300,11 +355,40 @@ section {
     width: 100%;
   }
 
+  .hero-design-footer {
+    display: unset;
+    margin-left: 33%;
+    margin-top: -12%;
+    width: 100%;
+    transform: scale(.8);
+  }
+
   .portfolio img {
     float: right;
     max-width: 500px;
   }
+
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 32px 32px 32px 64px;
+
+
+
+    ul {
+      display: flex;
+      margin-left: 19em;
+
+      a {
+        display: block;
+        padding: 0 1em;
+      }
+    }
+  }
+
+
 }
+
 
 @media only screen and (min-width: 1250px) {
   header {
@@ -321,6 +405,14 @@ section {
 
   .hero .content {
     padding: 6em 8em 6em 10em;
+  }
+
+  .hero-design-footer {
+    display: unset;
+    margin-left: 46%;
+    margin-top: -17%;
+    width: 100%;
+    transform: scale(.8);
   }
 }
 
@@ -340,6 +432,7 @@ section {
   .hero .content {
     padding: 6em 20em 6em 20em;
   }
+
 }
 
 .circle {
