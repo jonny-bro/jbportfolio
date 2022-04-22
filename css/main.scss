@@ -330,6 +330,21 @@ section {
     }
   }
 
+  .social-footer {
+    display: block;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      width: 7em;
+      float: right;
+
+      img {
+        width: 20px;
+      }
+    }
+  }
+
   .hero {
     display: grid;
     grid-template-columns: 66% auto;
@@ -375,7 +390,7 @@ section {
   footer {
     display: flex;
     justify-content: flex-start;
-    padding: 32px 32px 32px 64px;
+    padding: 32px 32px 32px 160px;
 
 
 
@@ -413,8 +428,8 @@ section {
 
   .hero-design-footer {
     display: unset;
-    margin-left: 46%;
-    margin-top: -17%;
+    margin-left: 36%;
+    margin-top: -14%;
     width: 100%;
     transform: scale(.8);
   }

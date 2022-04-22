@@ -334,6 +334,22 @@ section {
   .social-header ul img {
     width: 20px;
   }
+  .social-footer {
+    display: block;
+  }
+  .social-footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 7em;
+    float: right;
+  }
+  .social-footer ul img {
+    width: 20px;
+  }
   .hero {
     display: -ms-grid;
     display: grid;
@@ -379,7 +395,7 @@ section {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding: 32px 32px 32px 64px;
+    padding: 32px 32px 32px 160px;
   }
   footer ul {
     display: -webkit-box;
@@ -408,8 +424,8 @@ section {
   }
   .hero-design-footer {
     display: unset;
-    margin-left: 46%;
-    margin-top: -17%;
+    margin-left: 36%;
+    margin-top: -14%;
     width: 100%;
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
